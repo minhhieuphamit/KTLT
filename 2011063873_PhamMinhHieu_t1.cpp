@@ -93,7 +93,7 @@ int main(){
 	printf("\n\nXOA PHAN TU");
 	XoaPhanTu(a, n, pos);
 	printf("\nMang sau khi xoa: ");
-    XuatMang(a, n);
+  	XuatMang(a, n);
 	
 	printf("\n\nTIM VI TRI PHAN TU DUONG CUOI CUNG ");
 	printf("\nSo duong cuoi cung la: %d", DuongCuoiCung(a, n));
@@ -101,8 +101,6 @@ int main(){
 	scanf(" %d", &x);
 	int kq=ViTriXCuoi(a,n,x);
 	printf("Vi tri thoa man yeu cau bai toan la: %d", kq);
-	
-	
 	
 	return 0;
 }
