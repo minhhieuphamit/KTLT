@@ -263,5 +263,6 @@ int main(){
     getline(cin, s);
     cout << PTHH(s);
     cout << endl << endl << " ";
+    
     return 0;
 }
